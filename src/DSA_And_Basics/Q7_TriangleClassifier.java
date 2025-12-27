@@ -15,26 +15,25 @@ import java.util.Scanner;
 
 public class Q7_TriangleClassifier {
 
-    public static String classifyTriange(int a, int b,int c)
-    {
-        String triangleType="";
-        if(a==b && b==c) triangleType="Equilateral";
-        else if(a==b || b==c || a==c) triangleType="Isosceles";
-        else triangleType="Scalane";
+    public static String classifyTriange(int a, int b, int c) {
+        String triangleType = "";
+        if (a == b && b == c) triangleType = "Equilateral";
+        else if (a == b || b == c || a == c) triangleType = "Isosceles";
+        else triangleType = "Scalane";
         return triangleType;
     }
 
     public static void main(String[] args) {
-        Scanner s=new Scanner(System.in);
-        int a,b,c;
+        Scanner s = new Scanner(System.in);
+        int a, b, c;
         System.out.println("Enter size of side 1");
-        a=s.nextInt();
+        a = s.nextInt();
         System.out.println("Enter size of side 2");
-        b=s.nextInt();
+        b = s.nextInt();
         System.out.println("Enter size of side 3");
-        c=s.nextInt();
+        c = s.nextInt();
 
-        System.out.println("Triangle is "+ classifyTriange(a,b,c));
+        System.out.println("Triangle is " + classifyTriange(a, b, c));
         s.close();
     }
 }
