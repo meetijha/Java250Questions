@@ -12,7 +12,7 @@ F: 0-59
 
 */
 
-public class Q5_GradeCalculator {
+public class Q005_GradeCalculator {
     public static void main(String[] args) {
         {
             Scanner s= new Scanner(System.in);

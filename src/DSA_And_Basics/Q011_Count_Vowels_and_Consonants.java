@@ -1,7 +1,7 @@
 package DSA_And_Basics;
 import java.util.Scanner;
 
-public class Q11_Count_Vowels_and_Consonants {
+public class Q011_Count_Vowels_and_Consonants {
 
     public static int[] countVowelsAndConsonants(String str)
     {

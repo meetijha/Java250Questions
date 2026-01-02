@@ -6,7 +6,7 @@ However, for multiples of 3, print "Fizz" instead of the number,
 and for multiples of 5, print "Buzz."
 For numbers that are multiples of both 3 and 5, print "FizzBuzz."*/
 
-public class Q3_FizzBuzzTest {
+public class Q003_FizzBuzzTest {
     public static void main(String[] args) {
         for(int i=1;i<=100;i++)
         {

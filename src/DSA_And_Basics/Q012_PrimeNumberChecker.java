@@ -2,7 +2,7 @@ package DSA_And_Basics;
 
 import java.util.Scanner;
 
-public class Q11_PrimeNumberChecker {
+public class Q012_PrimeNumberChecker {
     public static boolean isPrime(int num)
     {
         if(num<=1) return false;

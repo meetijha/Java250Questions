@@ -4,7 +4,7 @@ import java.util.Scanner;
 //1. How to Take Input from Users?
 //You can take input from users using the Scanner class
 
-public class Q1_SacannerClassInput {
+public class Q001_SacannerClassInput {
     public static void main(String[] args) {
         // Create a Scanner object to read user input
         Scanner s= new Scanner(System.in);

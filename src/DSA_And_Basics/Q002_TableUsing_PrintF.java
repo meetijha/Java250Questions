@@ -20,7 +20,7 @@ Sample Output
 
 import java.util.Scanner;
 
-public class Q2_TableUsing_PrintF {
+public class Q002_TableUsing_PrintF {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         System.out.println("Enter the number ");

@@ -13,7 +13,7 @@ Use an if-else statement to classify the triangle.*/
 import java.util.Scanner;
 
 
-public class Q7_TriangleClassifier {
+public class Q007_TriangleClassifier {
 
     public static String classifyTriange(int a, int b, int c) {
         String triangleType = "";

@@ -8,7 +8,7 @@ Use an if-else statement to determine if the string is a palindrome.*/
 
 import java.util.Scanner;
 
-public class Q4_PallindromeChecker {
+public class Q004_PallindromeChecker {
 
     public static boolean IsPallindrome(String str) {
 

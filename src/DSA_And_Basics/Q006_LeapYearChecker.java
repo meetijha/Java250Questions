@@ -9,7 +9,7 @@ Use an if-else statement to make this determination.
 
 import java.util.Scanner;
 
-public class Q6_LeapYearChecker {
+public class Q006_LeapYearChecker {
     public static void main(String[] args)
     {
         Scanner s= new Scanner(System.in);

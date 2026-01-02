@@ -11,7 +11,7 @@ import java.util.Scanner;
 *********
 */
 
-public class Q10_Pyramid_Pattern_Triangle {
+public class Q010_Pyramid_Pattern_Triangle {
     public static void main(String[] args)
     {
         Scanner s=new Scanner(System.in);
